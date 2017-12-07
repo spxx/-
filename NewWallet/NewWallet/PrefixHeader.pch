@@ -1,0 +1,87 @@
+//
+//  PrefixHeader.pch
+//  NewWallet
+//
+//  Created by mac on 14-10-27.
+//  Copyright (c) 2014年 BNDK. All rights reserved.
+//
+
+#ifndef NewWallet_PrefixHeader_pch
+#define NewWallet_PrefixHeader_pch
+
+#ifdef __OBJC__
+    // Include any system framework and library headers here that should be included in all compilation units.
+    // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+    #import "Defines.h"
+
+    #import "Tools.h"
+
+    #import "BNHandleImageTool.h"
+
+    #import "HttpTools.h"
+    #import "FirstHttpTools.h"
+
+    #import "AppDelegate.h"
+
+    #import "NSDictionary+NullHandle.h"
+
+    #import "SVProgressHUD.h"
+
+    #import <MagicalRecord/MagicalRecord.h>
+
+    #import "BNTools.h"
+
+    #import "BNTypeDefines.h"
+
+    #import "UMMobClick/MobClick.h"
+
+    #import "UIButton+BNNextStepButton.h"
+
+    #import "BNXiaoDaiInfoRecordTool.h"
+
+    #import "BNRealNameInfo.h"
+
+    #import "UIFont+SingleLineStringSize.h"
+
+    #import "UIImageView+WebCache.h"
+    #import "UIButton+WebCache.h"
+
+    #import "UIView+Utils.h"
+
+    #import "APPMacro.h"
+
+    #import "BNPayCenterHomeVC.h"
+
+    #import "UIColor+Extension.h"
+
+    #import <YJPaySDK/YJPaySDK.h>
+
+    #import "NewCardApi.h"
+    #import "NewPayOrderCenterApi.h"
+    #import "NewYJFPayApi.h"
+    #import "TestApi.h"
+    #import "JavaHttpTools.h"
+    #import "Masonry.h"
+
+    #import "UIView+Layout.h"
+    #import "UIColor+HexTransform.h"
+
+    #import "BestpaySDK.h"
+    #import "BestpayNativeModel.h"
+
+    #import "MJRefresh.h"
+
+    #endif
+
+
+#endif
+
+#ifdef DEBUG
+#    define BNLog(__FORMAT__, ...) NSLog((@"From:%s --- Line: %d\n " __FORMAT__), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#    define BNLog(...)
+#endif
+
+
+

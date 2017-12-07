@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="13F34" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="OneCardNews" representedClassName="OneCardNews" syncable="YES">
+        <attribute name="create_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="school_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text_abstract" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unRead" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XifuLoginAccount" representedClassName="XifuLoginAccount" syncable="YES">
+        <attribute name="xifuLoginAccount" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XifuNews" representedClassName="XifuNews" syncable="YES">
+        <attribute name="create_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="school_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text_abstract" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unRead" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="OneCardNews" positionX="160" positionY="192" width="128" height="195"/>
+        <element name="XifuLoginAccount" positionX="-45" positionY="99" width="128" height="60"/>
+        <element name="XifuNews" positionX="-54" positionY="-9" width="128" height="178"/>
+    </elements>
+</model>

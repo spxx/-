@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G1004" minimumToolsVersion="Xcode 4.3">
+    <entity name="OneCardNews" representedClassName="OneCardNews" syncable="YES">
+        <attribute name="create_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="full_text_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="school_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text_abstract" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unRead" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RechargeNetId" representedClassName="RechargeNetId" syncable="YES">
+        <attribute name="netId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RechargePhoneNumer" representedClassName="RechargePhoneNumer" syncable="YES">
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SchoolName" representedClassName="SchoolName" syncable="YES">
+        <attribute name="schoolName_Chinese" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="schoolName_Code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="schoolName_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="schoolName_PinYin" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XifuLoginAccount" representedClassName="XifuLoginAccount" syncable="YES">
+        <attribute name="xifuLoginAccount" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XifuNews" representedClassName="XifuNews" syncable="YES">
+        <attribute name="busiType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="create_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageType" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="newsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pushType" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="school_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subBusiType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unRead" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="OneCardNews" positionX="160" positionY="192" width="128" height="210"/>
+        <element name="RechargeNetId" positionX="54" positionY="144" width="128" height="60"/>
+        <element name="RechargePhoneNumer" positionX="63" positionY="153" width="128" height="60"/>
+        <element name="SchoolName" positionX="81" positionY="171" width="128" height="105"/>
+        <element name="XifuLoginAccount" positionX="-45" positionY="99" width="128" height="60"/>
+        <element name="XifuNews" positionX="-54" positionY="-9" width="128" height="270"/>
+    </elements>
+</model>

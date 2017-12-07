@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>no</key>
+		<integer>1</integer>
+		<key>title</key>
+		<string>科目一</string>
+		<key>description</key>
+		<string>科目一考试内容包括：道路通行、交通信号、交通安全违法行为和交通事故处理、机动车驾驶证申领和使用、机动车登记等规定以及其他道路交通安全法律、法规和规章。</string>
+	</dict>
+	<dict>
+		<key>no</key>
+		<integer>2</integer>
+		<key>title</key>
+		<string>科目二</string>
+		<key>description</key>
+		<string>A 在规定场地内驾驶机动车完成考试项目的情况； B 对机动车驾驶技能掌握的情况； C 对机动车空间位置判断的能力。</string>
+	</dict>
+	<dict>
+		<key>no</key>
+		<integer>3</integer>
+		<key>title</key>
+		<string>科目三</string>
+		<key>description</key>
+		<string>A 在道路上驾驶机动车完成考试项目的情况； B 遵守交通法律、法规的情况； C 综合控制机动车的能力； D 正确使用灯光、喇叭、安全带等装置的情况； E 正确观察、判断道路交通情况的能力； F 安全驾驶行为、文明驾驶意识。</string>
+	</dict>
+	<dict>
+		<key>no</key>
+		<integer>4</integer>
+		<key>title</key>
+		<string>科目四</string>
+		<key>description</key>
+		<string>科目四考试内容包括：道路通行、交通信号、交通安全违法行为和交通事故处理、机动车驾驶证申领和使用、机动车登记等规定以及其他道路交通安全法律、法规和规章。</string>
+	</dict>
+</array>
+</plist>

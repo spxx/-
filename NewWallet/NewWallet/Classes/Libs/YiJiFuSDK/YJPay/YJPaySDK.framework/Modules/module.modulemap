@@ -1,0 +1,6 @@
+framework module YJPaySDK {
+  umbrella header "YJPaySDK.h"
+
+  export *
+  module * { export * }
+}
